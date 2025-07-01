@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frontend Beginner Level - Assignment 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .form-container {
+      background-color: #ffb74d;
+      padding: 30px;
+    }
+
+    .form-box {
+      background-color: white;
+      padding: 30px;
+      max-width: 400px;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .form-box p {
+      text-align: center;
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    .form-box input[type="text"],
+    .form-box input[type="email"],
+    .form-box input[type="number"],
+    .form-box select,
+    .form-box textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0 12px;
+      box-sizing: border-box;
+    }
+
+    .form-box label {
+      font-size: 14px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .form-box input[type="checkbox"],
+    .form-box input[type="radio"] {
+      margin-right: 6px;
+    }
+
+    .form-box button {
+      background-color: orange;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .description {
+      max-width: 500px;
+      margin-top: 30px;
+    }
+
+    .description h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .description p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">FRONTEND BEGINNER LEVEL<br>ASSIGNMENT NO. 1</div>
+
+  <div class="main-container">
+    <div class="form-container">
+      <div class="form-box">
+        <h2>Survey Form</h2>
+        <p>User stories survey form</p>
+        <form>
+          <label>Name:</label>
+          <input type="text" placeholder="Enter Name">
+
+          <label>E-mail:</label>
+          <input type="email" placeholder="Enter E-Mail">
+
+          <label>Work Experience:</label>
+          <input type="number" placeholder="Enter Number">
+
+          <label>Are you comfortable in investing in real estate on platform without first investigating properly</label>
+          <select>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+
+          <label>Suggestions to build trusted platform</label>
+          <textarea rows="2"></textarea>
+
+          <label>You are ready to invest in:</label>
+          <input type="checkbox"> Real Estate<br>
+          <input type="checkbox"> Mutual Funds<br>
+          <input type="checkbox"> Crypto Currency<br>
+          <input type="checkbox"> Stocks & Bonds<br>
+
+          <label>Are you ready for further contact</label>
+          <input type="radio" name="contact"> Yes
+          <input type="radio" name="contact"> No
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="description">
+      <h3>Simple Survey Form</h3>
+      <p><strong>Description:</strong> This project is to create a user-friendly survey form that collects various types of information from users. The form will include different types of input fields, such as text boxes, radio buttons, checkboxes, and a submit button. The focus is on creating a clear, accessible, and easy-to-use form layout.</p>
+    </div>
+  </div>
+</body>
+</html>
